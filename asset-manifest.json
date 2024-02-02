@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/njf-portfolio/static/css/main.1cafa257.css",
-    "main.js": "/njf-portfolio/static/js/main.ba7d639f.js",
+    "main.js": "/njf-portfolio/static/js/main.59ff58d0.js",
     "index.html": "/njf-portfolio/index.html",
     "main.1cafa257.css.map": "/njf-portfolio/static/css/main.1cafa257.css.map",
-    "main.ba7d639f.js.map": "/njf-portfolio/static/js/main.ba7d639f.js.map"
+    "main.59ff58d0.js.map": "/njf-portfolio/static/js/main.59ff58d0.js.map"
   },
   "entrypoints": [
     "static/css/main.1cafa257.css",
-    "static/js/main.ba7d639f.js"
+    "static/js/main.59ff58d0.js"
   ]
 }
