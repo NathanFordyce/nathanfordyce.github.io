@@ -1,1 +1,65 @@
+@font-face {
+    font-family: "ColdWarm";
+    src: url("../fonts/ColdWarm.ttf") format("truetype");
+}
 
+@font-face {
+font-family: "HankenGrotesk";
+src: url("../fonts/HankenGrotesk.ttf") format("truetype");
+}
+
+.outer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.inner-container {
+    background-color: white;
+    padding: 2vh;
+    width: 80vw;
+    height: 40vw;
+    border-radius: 2%;
+}
+
+.openingTitle {
+    font-family: "ColdWarm";
+    font-size: 5vw;
+}
+
+.openingBody, ul {
+    font-family: "HankenGrotesk";
+    font-size: 2vw;
+    padding-bottom: 2vw;
+}
+
+.openingLinks{
+    list-style-type: none;
+}
+
+.left-of-container{
+    float: left;
+    width: 40vw;
+    height: 50vw;
+    margin-left: 5vw;
+}
+
+li {
+    font-style: italic;
+    padding-bottom: 5vw;
+} 
+
+.right-of-container {
+    border-left: 0.1vh solid gray; /* Adjust color as needed */
+    float: right;
+    width: 25vw;
+    height: 25vw;
+
+}
+
+.socialLinks {
+    width: 10vw;
+    height: 10vw;
+}
