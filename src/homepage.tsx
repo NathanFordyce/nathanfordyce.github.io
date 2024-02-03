@@ -12,9 +12,6 @@ const Portfolio: React.FC = () => {
         <Helmet>
           <title>Portfolio</title>
         </Helmet>
-<<<<<<< Updated upstream
-          
-=======
         <body>
 
         <div className="outer-container">
@@ -46,7 +43,6 @@ const Portfolio: React.FC = () => {
         </div>
 
         </body>
->>>>>>> Stashed changes
 
       </html>      
     );
