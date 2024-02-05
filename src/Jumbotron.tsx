@@ -11,10 +11,10 @@ const Jumbotron: React.FC = () => {
         <p className="lead" id="portfolio-body"> I strive to develop <span id='jumboBold'>effective</span>, <span id='jumboBold'>coherent</span>, and most importantly <span id='jumboBold'>fantastic</span> user experiences.</p>
         <div className='row'>
           <div className='col-sm-6'>
-            <Image filename="github.png"/>
+            <Image filename="github.png" url="https://github.com/NathanFordyce"/>
           </div>
           <div className='col-sm-6'>
-            <Image filename="linkedin.png"/>
+            <Image filename="linkedin.png" url="https://www.linkedin.com/in/nathan-fordyce/"/>
           </div>
         </div>
       </div>

@@ -1,12 +1,12 @@
 interface ImageInterface {
   filename: string;
-  className?: string;
+  url: string;
 }
 
-const Image: React.FC<ImageInterface> = ({ filename, className }) => {
+const Image: React.FC<ImageInterface> = ({ filename, url}) => {
 
   return (
-    <img src={`${filename}`} id="socialLinks" alt={`${filename}`} className={`img-fluid ${className}`} />
+    <a href={`${url}`}><img src={`${filename}`} id="socialLinks" alt={`${filename}`} className="img-fluid" /></a>
   );
 };
 
