@@ -1,26 +1,19 @@
-import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar: React.FC = () => {
+function GetNavbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link active fs-4" aria-current="page" href="/?redirect=home">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fs-4" href="/?redirect=about">CV</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fs-4" href="/?redirect=projects">Projects</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+    <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
+          <Nav>
+            <Nav.Link href="/?redirect=home" className="nav-link active fs-4">Home</Nav.Link>
+            <Nav.Link href="/?redirect=about" className="nav-link fs-4">About</Nav.Link>
+            <Nav.Link href="/?redirect=projects" className="nav-link fs-4">Projects</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+    </Navbar>
   );
-};
+}
 
-export default Navbar;
+export default GetNavbar;
