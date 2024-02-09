@@ -9,10 +9,13 @@ const Navbar: React.FC = () => {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active fs-4" aria-current="page" href="#">Home</a>
+              <a className="nav-link active fs-4" aria-current="page" href="/?redirect=home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fs-4" href="#portfolio">Projects</a>
+              <a className="nav-link fs-4" href="/?redirect=about">CV</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link fs-4" href="/?redirect=projects">Projects</a>
             </li>
           </ul>
         </div>

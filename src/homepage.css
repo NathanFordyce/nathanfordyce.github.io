@@ -16,9 +16,26 @@
   font-family: "HankenGrotesk";
 }
 
+.tag {
+  background-color: lightgrey;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: "HankenGrotesk";
+}
+
+.projectContainer {
+  overflow-y:scroll;
+  height: auto;
+}
+
 #socialLinks {
   width: 150px;
   border-radius: 50%;
+}
+
+.img-carousel {
+  max-width: 500px;
+  width:100%;
 }
 
 body {
@@ -26,7 +43,12 @@ body {
 }
 
 #nameLead {
-  color:darkblue
+  color:darkblue;
+}
+
+#cardLead {
+  color:darkblue;
+  font-family: "HankenGrotesk";
 }
 
 #jumboBold {
