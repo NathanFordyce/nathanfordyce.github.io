@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.d7723bfb.css",
-    "main.js": "/static/js/main.4b9075ed.js",
+    "main.js": "/static/js/main.55b33a15.js",
     "static/media/HankenGrotesk.ttf": "/static/media/HankenGrotesk.d642a5d85689aa7d33db.ttf",
     "static/media/ColdWarm.ttf": "/static/media/ColdWarm.494a380a82b4b631fcfa.ttf",
     "index.html": "/index.html",
     "main.d7723bfb.css.map": "/static/css/main.d7723bfb.css.map",
-    "main.4b9075ed.js.map": "/static/js/main.4b9075ed.js.map"
+    "main.55b33a15.js.map": "/static/js/main.55b33a15.js.map"
   },
   "entrypoints": [
     "static/css/main.d7723bfb.css",
-    "static/js/main.4b9075ed.js"
+    "static/js/main.55b33a15.js"
   ]
 }
