@@ -12,9 +12,11 @@
   font-family: "ColdWarm";
 }
 
+#location-text,
 #portfolio-body {
   font-family: "HankenGrotesk";
 }
+
 
 .tag {
   background-color: lightgrey;
@@ -39,18 +41,61 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color:#3d3e40;
 }
 
 #nameLead {
-  color:darkblue;
+  color:yellow;
 }
 
 #cardLead {
-  color:darkblue;
+  color:yellow;
   font-family: "HankenGrotesk";
 }
 
 #jumboBold {
   font-weight: bold;
 }
+
+#imgCover {
+  max-width: 250px;
+  width:100%;
+  height: auto;
+  border-radius: 50%;  
+}
+
+
+.template {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.template h1,
+.template h2 {
+  font-family: "ColdWarm";
+  color: yellow;
+}
+
+.template a {
+  font-family: "ColdWarm";
+  color: yellow;
+  text-decoration: none;
+}
+
+.template a:hover {
+  text-decoration: underline;
+}
+
+.icon-style {
+  transition: transform 0.3s;
+}
+
+.social-icon:hover, 
+.icon-style:hover {
+  transform: scale(1.1);
+}
+
+
